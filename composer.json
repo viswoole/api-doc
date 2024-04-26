@@ -1,0 +1,40 @@
+{
+  "name": "viswoole/api-doc",
+  "description": "ViSwoole ApiDoc 用于根据HTTP路由注册表，自动生成文档。",
+  "keywords": [
+    "api-doc",
+    "doc",
+    "viswoole"
+  ],
+  "minimum-stability": "dev",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "zhuchonglin",
+      "email": "8210856@qq.com"
+    }
+  ],
+  "require": {
+    "viswoole/http-server": ">=2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "ViSwoole\\ApiDoc\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ViSwoole\\ApiDoc\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "viswoole": {
+      "configs": [
+        "config"
+      ]
+    }
+  }
+}
