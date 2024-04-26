@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "viswoole/http-server": ">=2.0"
+    "viswoole/http-server": "@dev"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"
